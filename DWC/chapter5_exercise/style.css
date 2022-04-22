@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header .heading{
+  text-align: center;
+}
+
+.nav-list{
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: black;
+}
+
+.nav-webcamp {
+  margin: 0 20px;
+  list-style: none;
+  display: inline-block;
+}
+
+.main-area {
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.first-row {
+  display: flex;
+  justify-content: center;
+}
+
+.main-area-1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.main-area-2 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.main-area-3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.main-area-4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.second-row {
+  display: flex;
+  justify-content: center;
+}
+
+.main-area-5 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.main-area-6 {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.main-area-7 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.main-area-8 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.third-row {
+  display: flex;
+  justify-content: center;
+}
+
+.main-area-9 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.main-area-10 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.main-area-11 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.main-area-12 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: rgb(83, 80, 80);
+}
+
+.company-name {
+  color: white;
+}
