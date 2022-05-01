@@ -9,15 +9,27 @@ a {
   text-decoration: none;
 }
 
+header, nav, h2, .main-visual, footer {
+  font-family: Chalkduster, "Bradley Hand", Courier,"Segoe Print", sans-serif;
+}
+
 header {
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
+  text-align: center;
+  position: relative;
 }
 
 header .heading {
   font-size: 32px;
   text-align: center;
+}
+
+.social {
+  display: inline-block;
+  margin-left: 20px;
+  margin: 0 auto;
 }
 
 .nav-list {
@@ -206,4 +218,68 @@ footer {
 
 footer .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width:425px) {
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .blog {
+    width: 100%;
+  }
+
+  .blog-box {
+    padding: 0 10px;
+  }
+
+  .blog-image {
+    width: 50%;
+  }
+
+  .blog-text {
+    padding: 0 15px;
+  }
+
+  .category {
+    width: 40%;
+    text-align: center;
+    display: block;
+  }
+
+  .pagination {
+    padding-bottom: 50px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .instagram-box {
+    width: 48%;
+  }
+
+  .popular-text,
+  .categories-text {
+    padding-left: 15px;
+  }
+
+  .popular-text:last-child,
+  .categories-text:last-child {
+    padding-left: 15px;
+  }
 }
